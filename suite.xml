@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MiSuiteDePruebas">
+	<test name="SuitePruebas">
+		<parameter name="pathJSON" value="C:\\Users\\jandi\\OneDrive\\Escritorio\\CursoSelenium\\selenium\\src\\main\\resources\\selenium\\data.json" />
+		<parameter name="pathExcel" value="C:\\Users\\jandi\\OneDrive\\Escritorio\\CursoSelenium\\selenium\\src\\main\\resources\\selenium\\data.xlsx" />
+		<!--classes>
+            <class name="selenium.HomeValueFromJSONWithParamTest"/> 
+        </classes-->
+        <packages>
+			<package name="selenium"></package>
+		</packages>
+    </test>
+</suite>
